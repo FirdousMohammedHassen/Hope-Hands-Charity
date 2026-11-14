@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Club Registration Form</title>
+</head>
+<body>
+
+    <h2>Club Registration Form</h2>
+
+    <form action="#" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+       
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+2519_________">
+        <br><br>
+
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+        <br><br>
+
+        
+        <label>Year of Study:</label><br>
+
+        <input type="radio" id="year1" name="year" value="First Year">
+        <label for="year1">First Year</label>
+
+        <input type="radio" id="year2" name="year" value="Second Year">
+        <label for="year2">Second Year</label>
+
+        <input type="radio" id="year3" name="year" value="Third Year">
+        <label for="year3">Third Year</label>
+
+        <input type="radio" id="year4" name="year" value="Fourth Year">
+        <label for="year4">Fourth Year</label>
+        <br><br>
+
+        <label for="department">Department:</label>
+        <select id="department" name="department">
+            <option value="">Select Department</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Business">Business</option>
+        </select>
+        <br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="Coding">
+        <label for="coding">Coding</label>
+
+        <input type="checkbox" id="sports" name="interests" value="Sports">
+        <label for="sports">Sports</label>
+
+        <input type="checkbox" id="music" name="interests" value="Music">
+        <label for="music">Music</label>
+        <br><br>
+
+        <label for="reason">Why do you want to join?</label><br>
+        <textarea id="reason" name="reason" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
